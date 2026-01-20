@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>Helsingin yliopisto · Student Portal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial;
+      background: #f3f4f6;
+      color: #111827;
+    }
+
+    header {
+      background: #002f6c;
+      color: #ffffff;
+      padding: 24px 16px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 22px;
+      font-weight: 600;
+    }
+
+    header p {
+      margin-top: 6px;
+      font-size: 14px;
+      opacity: 0.9;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    }
+
+    .profile {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .profile img {
+      width: 120px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 1px solid #d1d5db;
+      background: #e5e7eb;
+    }
+
+    .profile-info h2 {
+      margin: 0 0 8px 0;
+      font-size: 20px;
+    }
+
+    .profile-info p {
+      margin: 4px 0;
+      font-size: 15px;
+      color: #374151;
+    }
+
+    h3 {
+      margin-top: 0;
+      font-size: 17px;
+    }
+
+    ul {
+      margin: 8px 0 0 20px;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 13px;
+      color: #6b7280;
+      padding: 24px 12px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Helsingin yliopisto</h1>
+  <p>Private Student Information System · Unofficial</p>
+</header>
+
+<div class="container">
+
+  <!-- 个人信息 -->
+  <div class="card profile">
+    <img src="profile.jpg" alt="Student Photo">
+
+    <div class="profile-info">
+      <h2>zhanshuozhang</h2>
+      <p>学号：012153503</p>
+      <p>学院：商学院</p>
+      <p>专业：国际商务</p>
+      <p>入学时间：2023年9月1日</p>
+      <p>学籍状态：Archived</p>
+    </div>
+  </div>
+
+  <!-- 学位信息 -->
+  <div class="card">
+    <h3>学位信息</h3>
+    <p>学位：国际商务学士（Bachelor of International Business）</p>
+    <p>学分完成：180 ECTS</p>
+    <p>完成状态：Degree requirements fulfilled</p>
+    <p>完成日期：2025年10月20日</p>
+  </div>
+
+  <!-- 学业时间线 -->
+  <div class="card">
+    <h3>学业时间线</h3>
+    <ul>
+      <li>2023-09-01 · 学籍激活</li>
+      <li>2023-12-12 · 首门课程完成</li>
+      <li>2024-01-06 · 计量经济学 I 完成</li>
+      <li>2024-08-14 · 计量经济学 II 完成</li>
+      <li>2025-10-05 · 学士论文登记</li>
+      <li>2025-10-20 · 学位要求完成</li>
+    </ul>
+  </div>
+
+  <!-- 系统说明 -->
+  <div class="card">
+    <h3>系统说明</h3>
+    <ul>
+      <li>这是一个个人、非官方学生系统</li>
+      <li>所有信息为只读，不可修改</li>
+      <li>仅用于个人留存与回顾</li>
+    </ul>
+  </div>
+
+</div>
+
+<footer>
+  Helsingin yliopisto · Personal Academic Record<br>
+  Unofficial · Private · Archived
+</footer>
+
+</body>
+</html>
